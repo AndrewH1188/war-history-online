@@ -1,0 +1,16 @@
+/* Setting a container width to overwrite bootstrap standard */
+.container {
+    max-width: 96%;
+    margin: 0 auto;
+}
+
+/* Temp so can see image working with - img needs work to show as per design - work in progress*/
+img { 
+    width: 100%;  
+    margin-top: 50px;
+}
+
+
+
+
+/* Home Page */
