@@ -1,4 +1,8 @@
 /* Setting a container width to overwrite bootstrap standard */
+
+ /* --- COLOR GREY ---- #191919 ---  */
+ /* --- COLOR SAND ---- #dfcfab ---  */
+
 .container {
     max-width: 96%;
     margin: 0 auto;
@@ -6,55 +10,44 @@
 
 
 /* --------------------------------------------------- Navbar */
- /* --- COLOR GREY ---- #191919 ---  */
- /* --- COLOR SAND ---- #dfcfab ---  */
-.navbar { padding: 0.5rem 0; }
+.navbar { 
+    flex-direction: column;
+    align-items: start;
+    padding: .2em 0 0 0;
+ }
 
-.navbar-bg { 
-    background: #fff;
-    /* padding: 30px; */
-    /* margin: 15px 0; */
-    /* height: 90px;  */
-
-}
+.navbar-bg { background: #fff; }
 
 .navbar-brand {
     font-weight: 600;
-    font-size: x-large;
+    font-size: 1.6em;
     color: #191919;
+    padding-bottom: 0;
 }
 
-.navbar-brand:hover {
-    color: #dfcfab;
+p {
+    font-size: 0.71em;
+    margin-top: -4px;
 }
+
+.navbar-brand:hover { color: #dfcfab; }
 
 .nav-links {
-    padding-left: 59%;
-    text-align: left;
+    position: absolute;
+    right: 0;
+    margin: 9px 0;
 }
 
-.nav-link {
-    color: #000;
-}
+.nav-link { color: #191919; }
 
-.nav-link:hover {
-    color: #dfcfab;
-}
+.nav-link:hover { color: #dfcfab; }
 
-.active {
-    color: #454636;
-}
+.active { color: #454636; }
 
-.fa-bars { color: #000;}
+.fa-bars { color: #191919;}
 
 
-
-
-
-
-
-
-
+/* --------------------------------------------------- BANNER IMAGE */
 img { 
     width: 100%;  
     /* margin-top: 50px; */
@@ -68,6 +61,18 @@ img {
 
 
 
+
+/* --------------------------------------------------- CAMPAIGNS SECTION */
+.campaigns-covered { 
+    background: #191919; 
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+
+/* --------------------------------------------------- TEXT UNDER CAMPAIGNS SECTION */
+h3, p { text-align: center;}
 
 
 
