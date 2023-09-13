@@ -27,14 +27,13 @@
 .navbar-brand:hover { color: #dfcfab; }
 .navbar-brand {
     font-weight: 600;
-    font-size: 1em;
+    font-size: 1.35em;
     color: #191919;
     padding-bottom: 0;
 }
-
-p {
+.who-strapline { 
     font-size: .6em;
-    /* margin-top: 10px; */
+    margin-top: -5px; 
 }
 
 .nav-links {
@@ -53,10 +52,14 @@ p {
 .navbar-toggler { 
     padding: 0;
 }
-.navbar-toggler-icon { height: 0;}
+.navbar-toggler-icon {     
+    display: flex;
+    height: 5px;
+}
 .fa-bars { 
     color: #191919;
     font-size: 1em;
+    margin-top: 5px;
 }
 
 
@@ -71,7 +74,7 @@ p {
 @media screen and (min-width: 992px) {
     .navbar {  flex-direction: column; }
     .navbar-brand { font-size: 1.6em; }
-    p { 
+    .who-strapline { 
         font-size: 0.71em;
         margin-top: -4px;
     }
@@ -105,8 +108,16 @@ p {
 .campaigns-covered { 
     background: #191919; 
     color: #fff;
-    padding: 20px 10px;
+    padding: 20px 20px 40px 20px;
     text-align: center;
+    margin-bottom: 20px;
+}
+
+.campaigns-covered-images {
+    height: 100%;
+    width: 100%;
+    border-radius: 90%;
+
 }
 
 
