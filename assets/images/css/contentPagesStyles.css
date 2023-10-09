@@ -10,3 +10,7 @@
 
 
 /* ----------- 372px x 156px -- Image Box Sizes ----------- */
+
+.speakerCredit { margin-top: 26px; }
+.furtherReading { margin-bottom: 26px; }
+.speakerCredit, .furtherReading { font-size: .8em; }
