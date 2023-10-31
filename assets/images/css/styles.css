@@ -95,12 +95,15 @@
     height: 100%;
 } 
 
-
 .welcoming-open-text { 
-    margin: 20px auto;
+    margin: 30px auto;
     width: 80%;
 }
 
+.openingText { 
+    font-size: 1em;
+    line-height: 1.2;
+}
 
 
 
@@ -133,7 +136,7 @@
 
 
 /* --------------------------------------------------- TEXT UNDER CAMPAIGNS SECTION */
-h3, p { text-align: center;}
+h2, p { text-align: center;}
 
 
 
