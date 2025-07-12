@@ -1,0 +1,16 @@
+/* --------------------------------------------------- Footer */
+.footer-bg {
+  background: var(--colorGrey);
+  padding: 11px 0;
+  margin-top: 20px;
+}
+
+p {
+  margin: 0;
+}
+
+.credits {
+  text-align: center;
+  font-size: x-small;
+  color: var(--colorWhite);
+}/*# sourceMappingURL=footer.css.map */

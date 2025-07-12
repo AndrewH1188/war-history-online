@@ -8,21 +8,21 @@
 .navbar-nav {
   position: relative;
   z-index: 99;
-  background: var(--colorWhite);
+  background: #fff;
 }
 
 .navbar-bg {
-  background: var(--colorWhite);
+  background: #fff;
 }
 
 .navbar-brand:hover {
-  color: var(--colorSand);
+  color: #dfcfab;
 }
 
 .navbar-brand {
   font-weight: 600;
   font-size: 1.35em;
-  color: var(--colorGrey);
+  color: #191919;
   padding-bottom: 0;
 }
 
@@ -38,15 +38,15 @@
 }
 
 .nav-link {
-  color: var(--colorGrey);
+  color: #191919;
 }
 
 .nav-link:hover {
-  color: var(--colorSand);
+  color: #dfcfab;
 }
 
 .active {
-  color: var(--colorCamouflage);
+  color: #454636;
 }
 
 /* ------------------- Mobile bars icon -------------- */
@@ -60,7 +60,7 @@
 }
 
 .fa-bars {
-  color: var(--colorGrey);
+  color: #191919;
   font-size: 1em;
   margin-top: 5px;
 }
@@ -130,11 +130,6 @@ img {
   text-decoration: none;
 }
 
-/* --------------------------------------------------- TEXT UNDER CAMPAIGNS SECTION */
-h2, p {
-  text-align: center;
-}
-
 /*--------------------------------------------- Back to top button */
 /* The code here for the back to top button has been taken from Material Design for Bootstrap (MDB) v5 & v4 */
 #btn-back-to-top {
@@ -150,13 +145,13 @@ html {
 
 /* My Own Code */
 .back-to-top-button {
-  background: var(--colorCornflower);
-  color: var(--colorWhite);
+  background: #e0780c;
+  color: #fff;
 }
 
 .back-to-top-button:hover {
-  background: var(--colorSun);
-  color: var(--colorWhite);
+  background: #be6709;
+  color: #fff;
 }
 
 /* --------------------------------------------------- Footer */
@@ -179,13 +174,9 @@ p {
 :root {
   --colorGrey: #191919;
   --colorSand: #dfcfab;
-  --colorCamouflage: #454636;
-  --colorWhite: #fff;
-  --colorSun: #be6709;
-  --colorCornflower: #e0780c;
   /* Setting a container width to overwrite bootstrap standard */
 }
 :root .container {
   max-width: 96%;
   margin: 0 auto;
-}/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=allStyles.css.map */

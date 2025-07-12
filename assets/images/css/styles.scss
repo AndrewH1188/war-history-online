@@ -1,0 +1,22 @@
+@use 'Navbar';
+@use 'bannerWelcomeTxt';
+@use 'campaignsTopicsCovered';
+@use 'backToTop';
+@use 'footer';
+
+:root {
+    --colorGrey: #191919;
+    --colorSand: #dfcfab;
+    --colorCamouflage: #454636;
+    --colorWhite: #fff;
+    --colorSun: #be6709;
+    --colorCornflower: #e0780c;
+
+    /* Setting a container width to overwrite bootstrap standard */
+    .container {
+        max-width: 96%;
+        margin: 0 auto;
+    }
+}
+
+

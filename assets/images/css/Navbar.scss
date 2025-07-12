@@ -1,0 +1,79 @@
+/* --------------------------------------------------- Navbar */
+.navbar { 
+    flex-direction: row;
+    align-items: start;
+    padding: .2em 0 0 0;
+ }
+
+ .navbar-nav { 
+    position: relative;
+    z-index: 99;
+    background: var(--colorWhite);
+}
+
+.navbar-bg { background: var(--colorWhite); }
+
+.navbar-brand:hover { color: var(--colorSand); }
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.35em;
+    color: var(--colorGrey);
+    padding-bottom: 0;
+}
+.who-strapline { 
+    font-size: .6em;
+    margin-top: -5px; 
+}
+
+.nav-links {
+    position: absolute;
+    right: 0;
+    margin: 9px 0;
+}
+
+.nav-link { color: var(--colorGrey); }
+
+.nav-link:hover { color: var(--colorSand); }
+
+.active { color: var(--colorCamouflage); }
+
+/* ------------------- Mobile bars icon -------------- */
+.navbar-toggler { 
+    padding: 0;
+}
+.navbar-toggler-icon {     
+    display: flex;
+    height: 5px;
+}
+.fa-bars { 
+    color: var(--colorGrey);
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+
+
+
+/* ========= Media Queries ========== */
+
+/* ========= Tablet Portrait ========== */
+@media screen and (min-width: 768px) {}
+
+/* ========= Tablet Landscape ========== */
+@media screen and (min-width: 992px) {
+    .navbar {  flex-direction: column; }
+    .navbar-brand { font-size: 1.6em; }
+    .who-strapline { 
+        font-size: 0.71em;
+        margin-top: -4px;
+    }
+}
+
+/* ========= Laptop ========== */
+@media screen and (min-width: 1200px) {}
+
+/* ========= Desktop ========== */
+@media screen and (min-width: 1400px) {
+
+
+}

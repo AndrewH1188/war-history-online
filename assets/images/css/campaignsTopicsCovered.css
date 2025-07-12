@@ -1,0 +1,36 @@
+/* --------------------------------------------------- CAMPAIGNS SECTION */
+.campaigns-covered {
+  background: var(--colorGrey);
+  color: var(--colorWhite);
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.TopicsCovered {
+  margin-bottom: 0.2em;
+}
+
+.firstRow {
+  margin-bottom: 2em;
+}
+
+.campaigns-covered-images {
+  height: auto;
+  width: 8em;
+  border-radius: 100%;
+}
+
+.TopicsCoveredLink {
+  color: var(--colorWhite);
+}
+
+.TopicsCoveredLink:hover {
+  color: var(--colorSand);
+  text-decoration: none;
+}
+
+/* --------------------------------------------------- TEXT UNDER CAMPAIGNS SECTION */
+h2, p {
+  text-align: center;
+}/*# sourceMappingURL=campaignsTopicsCovered.css.map */
