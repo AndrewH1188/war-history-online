@@ -12,9 +12,33 @@
     --colorSun: #be6709;
     --colorCornflower: #e0780c;
 
+    // Font Sizes
+    --h2Font-Size: 2.7rem;
+    --pFont-Size: 1.9em;
+
     /* Setting a container width to overwrite bootstrap standard */
     .container {
         max-width: 96%;
         margin: 0 auto;
     }
 }
+
+
+h2 { 
+    font-size: var(--h2Font-Size);
+    @media screen and (min-width: 768px) { 
+        --h2Font-Size: 1.2em;
+    } 
+}
+
+p { 
+    font-size: var(--pFont-Size);
+    @media screen and (min-width: 768px) { 
+        --pFont-Size: 1.2em;
+    }
+    @media screen and (min-width: 992px) { 
+        --pFont-Size: 1em;
+    }
+
+}
+

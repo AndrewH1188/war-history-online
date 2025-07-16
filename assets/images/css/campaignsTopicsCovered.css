@@ -6,21 +6,47 @@
   margin-bottom: 30px;
   padding: 36px 0;
 }
+.cc-sect .cc-grid {
+  display: grid;
+  grid-template-areas: "peninsu kitchen" "realwar gallipo" "zeppeli womenin" "dunkirk kurskwa" "ddayove atlant";
+  gap: 4rem;
+  grid-template-columns: 1fr 1fr;
+}
 .cc-sect h3 {
   margin-bottom: 20px;
 }
-.cc-sect .cc-grid {
-  display: grid;
-  gap: 1.5rem;
-  grid-template-columns: repeat(4, 1fr);
-}
-@media screen and (min-width: 768px) {
-  .cc-sect .cc-grid {
-    grid-template-columns: repeat(5, 1fr);
-  }
-}
 .cc-sect a {
   color: var(--colorWhite);
+}
+.cc-sect a:nth-child(1) {
+  grid-area: peninsu;
+}
+.cc-sect a:nth-child(2) {
+  grid-area: kitchen;
+}
+.cc-sect a:nth-child(3) {
+  grid-area: realwar;
+}
+.cc-sect a:nth-child(4) {
+  grid-area: gallipo;
+}
+.cc-sect a:nth-child(5) {
+  grid-area: zeppeli;
+}
+.cc-sect a:nth-child(6) {
+  grid-area: womenin;
+}
+.cc-sect a:nth-child(7) {
+  grid-area: dunkirk;
+}
+.cc-sect a:nth-child(8) {
+  grid-area: kurskwa;
+}
+.cc-sect a:nth-child(9) {
+  grid-area: ddayove;
+}
+.cc-sect a:nth-child(10) {
+  grid-area: atlant;
 }
 .cc-sect a:hover {
   color: var(--colorSand);
@@ -28,13 +54,29 @@
 }
 .cc-sect a img {
   height: auto;
-  width: 8em;
+  width: 17em;
   border-radius: 100%;
   transform: scale(1);
   transition: transform 0.3s ease;
 }
 .cc-sect a img:hover {
   transform: scale(1.04);
+}
+.cc-sect a p {
+  margin-top: 8px;
+}
+@media screen and (min-width: 768px) {
+  .cc-sect a img {
+    width: 7em;
+  }
+}
+@media screen and (min-width: 992px) {
+  .cc-sect .cc-grid {
+    grid-template-areas: "peninsu kitchen realwar gallipo zeppeli" "womenin dunkirk kurskwa ddayove atlant";
+  }
+  .cc-sect a img {
+    width: 8em;
+  }
 }
 
 /* --------------------------------------------------- TEXT UNDER CAMPAIGNS SECTION */
