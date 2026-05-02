@@ -167,7 +167,11 @@ img {
 .cc-sect a p {
   margin-top: 8px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 576px) {
+  .cc-sect .cc-grid {
+    grid-template-areas: "peninsu kitchen realwar" "gallipo zeppeli womenin" "dunkirk kurskwa ddayove" "atlant atlant atlant";
+    grid-template-columns: 1fr 1fr 1fr;
+  }
   .cc-sect a img {
     width: 7em;
   }
