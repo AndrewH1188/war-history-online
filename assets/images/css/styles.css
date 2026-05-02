@@ -9,6 +9,7 @@
   position: relative;
   z-index: 99;
   background: var(--colorWhite);
+  padding: 0 20px;
 }
 
 .navbar-bg {
@@ -27,14 +28,14 @@
 }
 
 .who-strapline {
-  font-size: 0.6em;
+  font-size: 0.42em;
   margin-top: -5px;
 }
 
 .nav-links {
   position: absolute;
   right: 0;
-  margin: 9px 0;
+  margin: 30px 0;
 }
 
 .nav-link {
@@ -63,6 +64,14 @@
   color: var(--colorGrey);
   font-size: 1em;
   margin-top: 5px;
+}
+
+.dropdown-menu {
+  min-width: 0;
+}
+
+.dropdown-item {
+  padding: 0.5rem;
 }
 
 /* ========= Media Queries ========== */
