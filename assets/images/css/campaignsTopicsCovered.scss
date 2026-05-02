@@ -23,7 +23,7 @@
     
     a {
         color: var(--colorWhite);
-        --pFont-Size: 1em;
+        --pFont-Size: 1.1em;
         &:nth-child(1) { grid-area: peninsu; }
         &:nth-child(2) { grid-area: kitchen; }
         &:nth-child(3) { grid-area: realwar; }
@@ -41,7 +41,7 @@
         }    
         img {
             height: auto;
-            width: 4em;
+            width: 7em;
             border-radius: 100%;
             transform: scale(1);
             transition: transform 0.3s ease;
@@ -62,9 +62,6 @@
             "atlant atlant atlant";
        grid-template-columns: 1fr 1fr 1fr;
      }
-    a {
-      img { width: 7em; }
-    }
    }
 
 
