@@ -14,7 +14,7 @@
             "zeppeli womenin"
             "dunkirk kurskwa"
             "ddayove atlant";
-        gap: 4rem;
+        gap: 1.3em;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
     }
@@ -23,7 +23,7 @@
     
     a {
         color: var(--colorWhite);
-
+        --pFont-Size: 1em;
         &:nth-child(1) { grid-area: peninsu; }
         &:nth-child(2) { grid-area: kitchen; }
         &:nth-child(3) { grid-area: realwar; }
@@ -41,7 +41,7 @@
         }    
         img {
             height: auto;
-            width: 17em;
+            width: 7em;
             border-radius: 100%;
             transform: scale(1);
             transition: transform 0.3s ease;
@@ -64,6 +64,9 @@
        grid-template-columns: 1fr 1fr 1fr;
        grid-template-rows: auto;
      }
+    a {
+      img { width: 17em; }
+    }
    }
 
 
