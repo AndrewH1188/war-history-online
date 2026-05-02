@@ -108,9 +108,9 @@ img {
 }
 .cc-sect .cc-grid {
   display: grid;
-  grid-template-areas: "peninsu kitchen realwar" "gallipo zeppeli womenin" "dunkirk kurskwa ddayove" "atlant atlant atlant";
+  grid-template-areas: "peninsu kitchen" "realwar gallipo" "zeppeli womenin" "dunkirk kurskwa" "ddayove atlant";
   gap: 4rem;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
 }
 .cc-sect h3 {
@@ -165,6 +165,14 @@ img {
 }
 .cc-sect a p {
   margin-top: 8px;
+}
+@media screen and (min-width: 576px) {
+  .cc-sect .cc-grid {
+    display: grid;
+    grid-template-areas: "peninsu kitchen realwar" "gallipo zeppeli womenin" "dunkirk kurskwa ddayove" "atlant atlant atlant";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
 }
 @media screen and (min-width: 768px) {
   .cc-sect a img {
