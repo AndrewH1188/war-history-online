@@ -3,6 +3,7 @@
   flex-direction: row;
   align-items: start;
   padding: 0.2em 0 0 0;
+  line-height: 1.35;
 }
 
 .navbar-nav {
@@ -14,6 +15,7 @@
 
 .navbar-bg {
   background: var(--colorWhite);
+  margin-bottom: 6px;
 }
 
 .navbar-brand:hover {
@@ -48,6 +50,7 @@
 
 .active {
   color: var(--colorCamouflage);
+  font-weight: 600;
 }
 
 /* ------------------- Mobile bars icon -------------- */
@@ -73,6 +76,10 @@
 .dropdown-item {
   padding: 0.5rem;
 }
+.dropdown-item:hover {
+  background-color: var(--colorSand);
+  color: #fff;
+}
 
 /* ========= Media Queries ========== */
 /* ========= Tablet Portrait ========== */
@@ -81,12 +88,21 @@
   .navbar {
     flex-direction: column;
   }
+  .navbar-nav {
+    padding: 0;
+  }
+  .nav-links {
+    margin: 16px 0;
+  }
   .navbar-brand {
     font-size: 1.6em;
   }
   .who-strapline {
-    font-size: 0.71em;
+    font-size: 0.42em;
     margin-top: -4px;
+  }
+  .dropdown-item {
+    padding: 0.5rem 1rem;
   }
 }
 /* ========= Laptop ========== */
@@ -185,6 +201,7 @@ img {
 @media screen and (min-width: 992px) {
   .cc-sect .cc-grid {
     grid-template-areas: "peninsu kitchen realwar gallipo zeppeli" "womenin dunkirk kurskwa ddayove atlant";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
   .cc-sect a img {
     width: 8em;
@@ -239,7 +256,7 @@ p {
 
 :root {
   --colorGrey: #191919;
-  --colorSand: #dfcfab;
+  --colorSand: #afa271;
   --colorCamouflage: #454636;
   --colorWhite: #fff;
   --colorSun: #be6709;

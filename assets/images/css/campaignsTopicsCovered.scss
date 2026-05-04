@@ -74,9 +74,10 @@
 
     @media screen and (min-width: 992px) {
         .cc-grid {
-            grid-template-areas: 
-            "peninsu kitchen realwar gallipo zeppeli" 
-            "womenin dunkirk kurskwa ddayove atlant";
+            grid-template-areas:
+                    "peninsu kitchen realwar gallipo zeppeli"
+                    "womenin dunkirk kurskwa ddayove atlant";
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         }
         a {
             img { width: 8em; }
