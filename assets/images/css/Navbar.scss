@@ -67,11 +67,12 @@
 
 .dropdown-item {
     padding: 0.5rem;
-    &:hover { background-color: var(--colorSand);
-    color: #fff;
+    &:hover {
+        background-color: var(--colorSand);
+        color: #fff;
     }
+    &.active, &:active { background-color: var(--colorCamouflage); }
 }
-
 
 
 /* ========= Media Queries ========== */

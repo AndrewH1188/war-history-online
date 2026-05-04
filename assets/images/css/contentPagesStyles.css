@@ -3,10 +3,19 @@
     background: #e5e5e5;
     /* padding: 12px 16px 0 0; */
     width: 100%;
+    padding: 14px;
 }
 .imageCol { padding: 0; }
+.welcoming-open-text { text-align: center; }
 
-/* .textCol {} */
+.rowGrid {
+    display: grid;
+    grid-template-areas: "img txt";
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.textCol { padding: 14px;}
 
 
 /* ----------- 372px x 156px -- Image Box Sizes ----------- */

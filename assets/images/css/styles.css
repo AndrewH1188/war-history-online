@@ -80,6 +80,9 @@
   background-color: var(--colorSand);
   color: #fff;
 }
+.dropdown-item.active, .dropdown-item:active {
+  background-color: var(--colorCamouflage);
+}
 
 /* ========= Media Queries ========== */
 /* ========= Tablet Portrait ========== */
