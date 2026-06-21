@@ -10,9 +10,16 @@
 
 .rowGrid {
     display: grid;
-    grid-template-areas: "img txt";
-    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "img" "txt";
+    grid-template-columns: 1fr;
+
+    @media screen and (min-width: 768px) {
+        grid-template-areas: "img txt";
+        grid-template-columns: 1fr 1fr;
+    }
 }
+
+/*todo - Make grid work on mobile */
 
 
 .textCol { padding: 14px;}
